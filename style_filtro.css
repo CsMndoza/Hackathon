@@ -1,0 +1,61 @@
+.cont_filtro p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15;
+}
+.cont_filtro {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.derechos{
+    margin: 30px;
+    justify-content: center;
+}
+#consulta{
+    margin-top: 20 ;
+}
+.text_derecho p{
+    background-color: #E1E5F2;
+    color: #022B3A;
+    margin: 0;
+    padding: 15;
+}
+.q{
+    display: flex;
+    margin: auto;
+
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width:30%;
+    color: #333;
+}
+.enter{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.enter a{
+    padding-left: 20;
+    padding-right: 20;
+    margin-top: 30px;
+    padding-top: 8;
+    padding-bottom: 8;
+    border-radius: 2px;
+}
+.derechos{
+    margin: 30px;
+    justify-content: center;
+}
+.derechos li{
+   padding: 10px;
+}
+footer {
+    display: block;
+}

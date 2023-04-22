@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+}
+
+.ini a {
+    width: 100px;
+    max-height: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.regis a {
+    width: 100px;
+    max-height: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.inicio_sesion {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+
+}
+
+.iniefe {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    border: none;
+    box-shadow: 0px 5px 0px 0px rgba(31, 122, 140, 0.5);
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.iniefe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 0px 0px white;
+}
+
+
+.regisefe {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    box-shadow: 0px 5px 0px 0px rgba(31, 122, 140, 0.5);
+    transition: all 0.2s ease-in-out;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.regisefe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 0px 0px white;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 340px;
+    margin-top: 20px;
+    width: 60%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: #1F7A8C;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev-btn {
+    left: 300px;
+}
+
+
+.next-btn {
+    right: 235px;
+}
+
+.heade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.heade .titulo p {
+    font-family: 'Castoro Titling', cursive;
+    font-size: 65;
+}
+
+.heade img {
+    margin-left: 20px;
+    width: 180px;
+}
+
+header {
+    background: linear-gradient(#1F7A8C, #cdd0d9);
+    color: white;
+    max-width: 100%;
+    padding-bottom: 2%;
+
+}
+
+.titulo {
+    font-size: 80px;
+    text-align: center;
+}
+
+.web_parts {
+    text-align: center;
+}
+
+.inicio_sesion {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+
+}
+
+.iniefe {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    border: none;
+    box-shadow: 0px 5px 0px 0px rgba(31, 122, 140, 0.5);
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 10px;
+}
+
+.iniefe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 0px 0px white;
+}
+
+
+.regisefe {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    box-shadow: 0px 5px 0px 0px rgba(31, 122, 140, 0.5);
+    transition: all 0.2s ease-in-out;
+    max-width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.regisefe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 0px 0px white;
+}
+
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10;
+    margin: 5;
+    background-color: #022B3A;
+
+}
+
+
+.cuadroini{
+    padding: 1%;
+}
+.cuadroini img{
+    width: 30px;
+}
+
+.cuadroini .bienve{
+    font-size: 30px;
+    padding-bottom: 25;
+}
+
+.dentro{
+    margin-right: 500px;
+    background-color: #cdd0d96a;
+    margin-left: 500px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.dentro .usu{
+    background-color: #cdd0d96a;
+    width: 200px;
+    height: 30px;
+    padding: 5%;
+    border-radius: 15px;
+    border: none;}
+
+.in_sesion_bot{
+    border-radius: 15px;
+}
+
+.icono img{
+    width: 80px;
+    padding: 4%;
+
+}
+
+.escribir{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+/* Registro */
+
+.dentro .usur{
+    background-color: #cdd0d96a;
+    width: 200px;
+    height: 30px;
+    padding: 5%;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.dentro .fechanac{
+    font-size: 19px;
+    color: rgb(141, 141, 141);
+}
+
+#genero {
+    font-size: 12px;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: #cdd0d96a;
+    border-color: #cdd0d96a;
+}
+
+/* Abogado */
+
+
+.redes img{
+    width: 25px;
+    padding: 35 15 3 15 ;
+}
+
+.foot {
+    bottom: 0;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #1F7A8C;
+    padding: 1.5%;
+    max-width: 100%;
+}
